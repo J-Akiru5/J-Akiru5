@@ -1,0 +1,56 @@
+<svg width="860" height="260" viewBox="0 0 860 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="termBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#27272A" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#27272A" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="termShadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect x="5" y="5" width="850" height="250" rx="10" fill="#0A0A0B" stroke="url(#termBorder)" stroke-width="1" filter="url(#termShadow)"/>
+  <rect x="5" y="5" width="850" height="32" rx="10" fill="#111113"/>
+  <rect x="5" y="22" width="850" height="15" fill="#111113"/>
+  <circle cx="22" cy="21" r="5" fill="#EF4444"/>
+  <circle cx="38" cy="21" r="5" fill="#F59E0B"/>
+  <circle cx="54" cy="21" r="5" fill="#10B981"/>
+  <text x="430" y="26" font-family="JetBrains Mono, Courier New, monospace" font-size="10" fill="#52525B" text-anchor="middle">syntaxure@founder — ~/about — zsh</text>
+  <g font-family="JetBrains Mono, Courier New, monospace" font-size="10" fill="#52525B">
+    <text x="18" y="60">1</text>
+    <text x="18" y="78">2</text>
+    <text x="18" y="96">3</text>
+    <text x="18" y="114">4</text>
+    <text x="18" y="132">5</text>
+    <text x="18" y="150">6</text>
+    <text x="18" y="168">7</text>
+    <text x="18" y="186">8</text>
+  </g>
+  <g font-family="JetBrains Mono, Courier New, monospace" font-size="11">
+    <text x="38" y="60" fill="#6B7280">//</text>
+    <text x="56" y="60" fill="#52525B">Syntaxure Labs — Founder Profile</text>
+    <text x="38" y="78" fill="#6B7280"/>
+    <text x="38" y="96" fill="#C084FC">const</text>
+    <text x="74" y="96" fill="#FAFAFA">syntaxure</text>
+    <text x="148" y="96" fill="#6B7280">=</text>
+    <text x="162" y="96" fill="#F9A8D4">{</text>
+    <text x="54" y="114" fill="#A1A1AA">founder:</text>
+    <text x="128" y="114" fill="#10B981">"Jeff Edrick Martinez"</text>
+    <text x="54" y="132" fill="#A1A1AA">company:</text>
+    <text x="128" y="132" fill="#10B981">"Syntaxure Labs"</text>
+    <text x="54" y="150" fill="#A1A1AA">mission:</text>
+    <text x="128" y="150" fill="#10B981">"Build sovereign infrastructure"</text>
+    <text x="54" y="168" fill="#A1A1AA">status:</text>
+    <text x="128" y="168" fill="#F59E0B">"Available for audits"</text>
+    <text x="38" y="186" fill="#F9A8D4">}</text>
+    <text x="38" y="186" fill="#F9A8D4"/>
+  </g>
+  <rect x="246" y="176" width="7" height="12" fill="#10B981">
+    <animate attributeName="opacity" values="1;0;1" dur="0.7s" repeatCount="indefinite"/>
+  </rect>
+  <text x="38" y="215" font-family="JetBrains Mono, Courier New, monospace" font-size="10" fill="#52525B">➜ ~ echo $MISSION</text>
+  <text x="38" y="235" font-family="JetBrains Mono, Courier New, monospace" font-size="10" fill="#06B6D4">"Governance over Generation — Architecting the Workflow of Future AI"</text>
+  <rect x="530" y="225" width="7" height="12" fill="#06B6D4">
+    <animate attributeName="opacity" values="1;0;1" dur="0.7s" repeatCount="indefinite"/>
+  </rect>
+</svg>

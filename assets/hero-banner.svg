@@ -1,0 +1,185 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Dot Grid Pattern -->
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="#27272A"/>
+    </pattern>
+    
+    <!-- Diagonal Grid for depth -->
+    <pattern id="diagGrid" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="60" stroke="#18181B" stroke-width="0.5"/>
+      <line x1="0" y1="0" x2="60" y2="0" stroke="#18181B" stroke-width="0.5"/>
+    </pattern>
+    
+    <!-- Glass panel gradient -->
+    <linearGradient id="glassBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01"/>
+    </linearGradient>
+    
+    <!-- Glass border gradient -->
+    <linearGradient id="glassBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+    
+    <!-- Cyan glow filter -->
+    <filter id="cyanGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Subtle glow -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Card shadow -->
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+
+    <!-- Accent gradient cyan -->
+    <linearGradient id="accentCyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    
+    <!-- Accent gradient emerald -->
+    <linearGradient id="accentEmerald" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <!-- Noise texture overlay -->
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.03"/>
+      </feComponentTransfer>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+  </defs>
+
+  <!-- Void Background -->
+  <rect width="900" height="320" fill="#09090B"/>
+  <rect width="900" height="320" fill="url(#dotGrid)"/>
+  <rect width="900" height="320" fill="url(#diagGrid)" opacity="0.5"/>
+  
+  <!-- Ambient glow behind card -->
+  <ellipse cx="450" cy="160" rx="350" ry="120" fill="#3B82F6" opacity="0.03"/>
+  <ellipse cx="450" cy="160" rx="200" ry="80" fill="#06B6D4" opacity="0.04"/>
+  
+  <!-- Main Glass Card -->
+  <rect x="35" y="25" width="830" height="270" rx="12" fill="url(#glassBg)" stroke="url(#glassBorder)" stroke-width="1" filter="url(#cardShadow)"/>
+  
+  <!-- Inner glass accent strip (top) -->
+  <rect x="35" y="25" width="830" height="1" rx="0" fill="url(#accentCyan)" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Corner accents -->
+  <path d="M 35 25 L 35 55" stroke="#06B6D4" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 35 25 L 65 25" stroke="#06B6D4" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 865 25 L 865 55" stroke="#06B6D4" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 865 25 L 835 25" stroke="#06B6D4" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 35 295 L 35 265" stroke="#3B82F6" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M 35 295 L 65 295" stroke="#3B82F6" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M 865 295 L 865 265" stroke="#3B82F6" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M 865 295 L 835 295" stroke="#3B82F6" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+  <!-- Left accent bar -->
+  <rect x="55" y="50" width="2" height="220" rx="1" fill="#06B6D4" opacity="0.15">
+    <animate attributeName="opacity" values="0.1;0.2;0.1" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ===== TEXT CONTENT ===== -->
+  
+  <!-- Status indicator dot -->
+  <circle cx="75" cy="78" r="4" fill="#10B981">
+    <animate attributeName="r" values="3.5;4.5;3.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="75" cy="78" r="8" fill="#10B981" opacity="0.2">
+    <animate attributeName="r" values="7;10;7" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.05;0.2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Available badge -->
+  <rect x="95" y="68" width="120" height="20" rx="10" fill="#10B981" opacity="0.1"/>
+  <text x="107" y="83" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="9" fill="#10B981" opacity="0.9">● AVAILABLE</text>
+  
+  <!-- Name -->
+  <text x="75" y="118" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" fill="#FAFAFA" letter-spacing="-1">
+    Jeff Edrick Martinez
+  </text>
+  
+  <!-- Title -->
+  <text x="75" y="148" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" fill="#A1A1AA" letter-spacing="1">
+    Founder &amp; CEO, Syntaxure Labs
+  </text>
+  
+  <!-- Bold tagline -->
+  <text x="75" y="180" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#06B6D4" letter-spacing="-0.5">
+    "Governance over Generation"
+  </text>
+  
+  <!-- Sub tagline -->
+  <text x="75" y="205" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#52525B" letter-spacing="0.5">
+    Architecting the Workflow of Future AI Development
+  </text>
+
+  <!-- ===== TERMINAL BAR ===== -->
+  <rect x="75" y="228" width="750" height="38" rx="6" fill="#0A0A0A" stroke="#27272A" stroke-width="1"/>
+  
+  <!-- Terminal dots -->
+  <circle cx="90" cy="247" r="4" fill="#EF4444"/>
+  <circle cx="102" cy="247" r="4" fill="#F59E0B"/>
+  <circle cx="114" cy="247" r="4" fill="#10B981"/>
+  
+  <!-- Terminal prompt -->
+  <text x="130" y="253" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" fill="#A1A1AA">
+    ➜ ~ ./agent_build_sequence.sh
+  </text>
+  
+  <!-- Command output -->
+  <text x="195" y="253" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" fill="#10B981">
+    ──protocol=hierarchy
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="370" y="242" width="6" height="13" rx="1" fill="#10B981" opacity="0.9">
+    <animate attributeName="opacity" values="1;0;1" dur="0.7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ===== BOTTOM STATS STRIP ===== -->
+  <rect x="75" y="275" width="750" height="14" rx="3" fill="#0A0A0A" opacity="0.5"/>
+  
+  <!-- Stats text -->
+  <text x="140" y="284" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="8" fill="#52525B">
+    [INFO] deploy:live  ·  projects:32  ·  open_source:2  ·  stars:80+  ·  [SUCCESS] build_passing
+  </text>
+
+  <!-- Right-side decoration: floating code particles -->
+  <g opacity="0.06">
+    <text x="780" y="100" font-family="'JetBrains Mono', monospace" font-size="10" fill="#06B6D4">
+      &lt;Syntaxure /&gt;
+    </text>
+    <text x="760" y="160" font-family="'JetBrains Mono', monospace" font-size="8" fill="#3B82F6">
+      export const build = () =&gt;
+    </text>
+    <text x="790" y="200" font-family="'JetBrains Mono', monospace" font-size="9" fill="#06B6D4">
+      { return future; }
+    </text>
+  </g>
+</svg>
