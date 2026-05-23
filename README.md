@@ -2,10 +2,14 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-banner.svg">
-  <img src="./assets/hero-banner.svg" width="100%" alt="Jeff Edrick Martinez — Founder & CEO, Syntaxure Labs">
+  <img src="./assets/hero-banner.svg" width="100%" alt="@J-Akiru5 — Jeff Edrick Martinez — Founder & CEO, Syntaxure Labs">
 </picture>
 
-<p align="center">
+<a href="https://github.com/J-Akiru5">
+  <img src="https://img.shields.io/badge/@J--Akiru5-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=09090B" alt="GitHub" />
+</a>
+
+<p>
   <a href="https://www.facebook.com/martinezjeff26" target="_blank">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
   </a>
@@ -23,11 +27,13 @@
   </a>
 </p>
 
-<br>
-
 <a href="https://github.com/dev-lou">
-  <img src="https://img.shields.io/badge/Co--Founder_&_CTO-@dev--lou-3B82F6?style=flat-square&logo=github&logoColor=white&labelColor=18181B" alt="Co-Founder" />
+  <img src="https://img.shields.io/badge/Co--Founder_%26_CTO-@dev--lou-3B82F6?style=flat-square&logo=github&logoColor=white&labelColor=18181B" alt="@dev-lou" />
 </a>
+
+&nbsp;
+
+<img src="https://komarev.com/ghpvc/?username=J-Akiru5&color=3B82F6&style=flat-square&label=ENGINEERS_ONLINE" alt="Profile views" />
 
 </div>
 
@@ -38,6 +44,14 @@
 </div>
 
 I build production-ready, SEO-optimized web platforms, SaaS products, and AI-native developer tooling — all deployed on free-tier infrastructure leveraging GitHub Student benefits, Cloudflare, and Supabase. Every project ships. Every project is live.
+
+---
+
+### `// Dev Workflow`
+
+<div align="center">
+  <img src="./assets/dev-workflow.svg" width="100%" alt="The Syntaxure Protocol">
+</div>
 
 ---
 
@@ -167,7 +181,7 @@ I build production-ready, SEO-optimized web platforms, SaaS products, and AI-nat
 <p>
   <img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=next.js&logoColor=white">
   <img src="https://img.shields.io/badge/TS-3178C6?style=flat&logo=typescript&logoColor=white">
-  <img src="https://img.shields.io/badge/INESCOM_2025-F59E0B?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0ZGRiI+PHBhdGggZD0iTTYgOUw0IDE3TDE0IDIxTDIwIDE3TDE4IDlMNCA5SDZaIi8+PC9zdmc+&logoColor=white">
+  <img src="https://img.shields.io/badge/INESCOM_2025-F59E0B?style=flat">
 </p>
 
 > Competed at the International Engineering Student Competition 2025 in Indonesia. A web platform for Lingsar Village.
@@ -324,14 +338,10 @@ I build production-ready, SEO-optimized web platforms, SaaS products, and AI-nat
 ### `// GitHub Analytics`
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=J-Akiru5&show_icons=true&hide_border=true&bg_color=09090B&title_color=3B82F6&icon_color=10B981&text_color=A1A1AA&ring_color=06B6D4&rank_icon=github&custom_title=GitHub%20Stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=J-Akiru5&show_icons=true&hide_border=true&bg_color=09090B&title_color=3B82F6&icon_color=10B981&text_color=A1A1AA&ring_color=06B6D4&rank_icon=github&custom_title=GitHub%20Stats" alt="GitHub Stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=J-Akiru5&layout=compact&hide_border=true&bg_color=09090B&title_color=3B82F6&text_color=A1A1AA&hide=blade,html,css&langs_count=8">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=J-Akiru5&layout=compact&hide_border=true&bg_color=09090B&title_color=3B82F6&text_color=A1A1AA&hide=blade,html,css&langs_count=8" alt="Top Languages" />
-  </picture>
+  <a href="https://github.com/J-Akiru5">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=J-Akiru5&show_icons=true&hide_border=true&bg_color=09090B&title_color=3B82F6&icon_color=10B981&text_color=A1A1AA&ring_color=06B6D4&rank_icon=github&custom_title=@J-Akiru5%20Stats" alt="GitHub Stats" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=J-Akiru5&layout=compact&hide_border=true&bg_color=09090B&title_color=3B82F6&text_color=A1A1AA&hide=blade,html,css&langs_count=8&custom_title=Top%20Languages" alt="Top Languages" />
+  </a>
 </p>
 
 <p align="center">
@@ -340,6 +350,13 @@ I build production-ready, SEO-optimized web platforms, SaaS products, and AI-nat
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=J-Akiru5&theme=darkhub&no-frame=true&column=7&margin-w=8&title=Stars,Followers,Repositories,Commits,Issues,PullRequest,Reviews" alt="GitHub Trophies" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ghchart.rshah.org/3B82F6/J-Akiru5">
+    <img src="https://ghchart.rshah.org/3B82F6/J-Akiru5" alt="@J-Akiru5 Contribution Graph" width="95%" />
+  </picture>
 </p>
 
 ---
@@ -399,29 +416,22 @@ Pair Extraordinaire · Pull Shark
 <br>
 
 <a href="https://jeffdev.studio">
-  <img src="https://img.shields.io/badge/START_PROJECT-3B82F6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=09090B&color=3B82F6" alt="Start Project" />
+  <img src="https://img.shields.io/badge/START_PROJECT-3B82F6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=09090B" alt="Start Project" />
 </a>
 &nbsp;
 <a href="https://jeffdev.studio/quote">
-  <img src="https://img.shields.io/badge/GET_QUOTE-18181B?style=for-the-badge&labelColor=27272A&color=18181B" alt="Get Quote" />
+  <img src="https://img.shields.io/badge/GET_QUOTE-18181B?style=for-the-badge&labelColor=27272A" alt="Get Quote" />
 </a>
 &nbsp;
 <a href="mailto:jeffmartinez@isufst.edu.ph">
-  <img src="https://img.shields.io/badge/CONTACT-10B981?style=for-the-badge&logo=gmail&logoColor=white&labelColor=09090B&color=10B981" alt="Contact" />
+  <img src="https://img.shields.io/badge/CONTACT-10B981?style=for-the-badge&logo=gmail&logoColor=white&labelColor=09090B" alt="Contact" />
 </a>
 
 <br><br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/J-Akiru5/J-Akiru5/main/assets/divider.svg">
-  <img src="./assets/divider.svg" width="100%" alt="">
-</picture>
+<img src="./assets/divider.svg" width="100%" alt="">
 
 <br>
-
-<img src="https://komarev.com/ghpvc/?username=J-Akiru5&color=3B82F6&style=flat-square&label=ENGINEERS_ONLINE" alt="Profile views" />
-
-<br><br>
 
 > `"Governance over Generation"` — Syntaxure Labs Manifesto
 
