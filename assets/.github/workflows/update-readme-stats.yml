@@ -1,0 +1,46 @@
+name: Update README stats
+
+on:
+  schedule:
+    # 00:00 Asia/Manila (UTC+8) daily = 16:00 UTC the previous day
+    - cron: "0 16 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate commit activity panel
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: J-Akiru5
+        run: python .github/scripts/generate_commit_activity.py
+
+      - name: Generate top languages panel
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: J-Akiru5
+        run: python .github/scripts/generate_top_langs.py
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/commits.svg assets/top-langs.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: auto-update commit activity & language stats [skip ci]"
+            git push
+          fi

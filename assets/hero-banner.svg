@@ -83,7 +83,7 @@
   <text x="62" y="142" font-family="JetBrains Mono, Courier New, monospace" font-size="16" fill="#8B5CF6" letter-spacing="0.5" font-weight="700">@J-Akiru5</text>
 
   <!-- Title -->
-  <text x="62" y="170" font-family="JetBrains Mono, Courier New, monospace" font-size="13" fill="#A1A1AA" letter-spacing="1">Founder &amp; CEO, Syntaxure Labs</text>
+  <text x="62" y="170" font-family="JetBrains Mono, Courier New, monospace" font-size="13" fill="#A1A1AA" letter-spacing="1">Founder, Syntaxure Labs</text>
 
   <!-- Tagline -->
   <text x="62" y="202" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#06B6D4" letter-spacing="-0.5">"Governance over Generation"</text>

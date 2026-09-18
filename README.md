@@ -1,440 +1,269 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-banner.svg">
-  <img src="./assets/hero-banner.svg" width="100%" alt="@J-Akiru5 — Jeff Edrick Martinez — Founder & CEO, Syntaxure Labs">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-banner.svg">
+  <img src="assets/hero-banner.svg" alt="Jeff Edrick Martinez — Founder, Syntaxure Labs. Governance over Generation." width="100%">
 </picture>
 
-<a href="https://github.com/J-Akiru5">
-  <img src="https://img.shields.io/badge/@J--Akiru5-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=09090B" alt="GitHub" />
-</a>
-
-<p>
-  <a href="https://www.facebook.com/martinezjeff26" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-  </a>
-  <a href="https://www.linkedin.com/in/jeff-edrick-martinez-888575300/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://www.instagram.com/jef.ferson_m/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="mailto:jeffmartinez@isufst.edu.ph">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://jeffdev.studio" target="_blank">
-    <img src="https://img.shields.io/badge/jeffdev.studio-09090B?style=for-the-badge&logo=vercel&logoColor=06B6D4&labelColor=09090B" alt="Website" />
-  </a>
-</p>
-
-<a href="https://github.com/dev-lou">
-  <img src="https://img.shields.io/badge/Co--Founder_%26_CTO-@dev--lou-3B82F6?style=flat-square&logo=github&logoColor=white&labelColor=18181B" alt="@dev-lou" />
-</a>
-
-&nbsp;
-
-<img src="https://komarev.com/ghpvc/?username=J-Akiru5&color=3B82F6&style=flat-square&label=ENGINEERS_ONLINE" alt="Profile views" />
-
-</div>
-
----
-
-<div align="center">
-  <img src="./assets/terminal-about.svg" width="100%" alt="Syntaxure Labs — About">
-</div>
-
-I build production-ready, SEO-optimized web platforms, SaaS products, and AI-native developer tooling — all deployed on free-tier infrastructure leveraging GitHub Student benefits, Cloudflare, and Supabase. Every project ships. Every project is live.
-
----
-
-### `// Dev Workflow`
-
-<div align="center">
-  <img src="./assets/dev-workflow.svg" width="100%" alt="The Syntaxure Protocol">
-</div>
-
----
-
-### `// Tech Stack`
-
-<table>
-<tr>
-<td width="25%" valign="top">
-
-#### Languages
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-
-</td>
-<td width="25%" valign="top">
-
-#### Frontend & Mobile
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-
-</td>
-<td width="25%" valign="top">
-
-#### Backend & Databases
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Cosmos DB](https://img.shields.io/badge/Cosmos_DB-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-</td>
-<td width="25%" valign="top">
-
-#### Cloud, DevOps & AI
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![Vercel AI SDK](https://img.shields.io/badge/AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white)
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-FF6B6B?style=flat-square&logo=protocolsdotio&logoColor=white)
-
-</td>
-</tr>
-</table>
-
----
-
-### `// Featured Projects`
-
-<table>
-<tr>
-<td width="50%" bgcolor="#0C0C0E" valign="top">
-
-<h4>🏢 &nbsp;Syntaxure Labs</h4>
-
-*Enterprise Web Development Studio & Prism SaaS Monorepo*
-
-<p>
-  <img src="https://img.shields.io/badge/Next.js_16-000?style=flat&logo=next.js&logoColor=white">
-  <img src="https://img.shields.io/badge/Turborepo-EF4444?style=flat&logo=turborepo&logoColor=white">
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white">
-  <img src="https://img.shields.io/badge/TS-3178C6?style=flat&logo=typescript&logoColor=white">
-</p>
-
-> 8 apps + 5 shared packages — marketing site, Prism Context Engine SaaS, admin dashboards, MCP server, and VS Code extension.
-
-<p align="right">
-  <a href="https://github.com/J-Akiru5/jeffdev-monorepo">
-    <img src="https://img.shields.io/badge/📂_repo-18181B?style=flat-square&labelColor=27272A">
-  </a>
-  <a href="https://jeffdev.studio">
-    <img src="https://img.shields.io/badge/🌐_live-3B82F6?style=flat-square&labelColor=18181B">
-  </a>
-</p>
-
-</td>
-<td width="50%" bgcolor="#0C0C0E" valign="top">
-
-<h4>🖥️ &nbsp;Prism Organizer</h4>
-
-*Portable CLI File Management Tool*
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white">
-  <img src="https://img.shields.io/badge/license-MIT-10B981?style=flat">
-</p>
-
-⭐ **39 stars** · `v1.2.16` · Open Source
-
-> Smart file scanning, duplicate detection, AI classification, and interactive TUI — published on npm and PyPI.
-
-<p align="right">
-  <a href="https://github.com/J-Akiru5/prism-organizer">
-    <img src="https://img.shields.io/badge/📂_repo-18181B?style=flat-square&labelColor=27272A">
-  </a>
-  <a href="https://www.npmjs.com/package/prism-organizer">
-    <img src="https://img.shields.io/badge/📦_npm-CB3837?style=flat-square&labelColor=18181B">
-  </a>
-</p>
-
-</td>
-</tr>
-<tr>
-<td width="50%" bgcolor="#0C0C0E" valign="top">
-
-<h4>🥈 &nbsp;LingsarLoka</h4>
-
-*Village Website — INESCOM 2025 2nd Place*
-
-<p>
-  <img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=next.js&logoColor=white">
-  <img src="https://img.shields.io/badge/TS-3178C6?style=flat&logo=typescript&logoColor=white">
-  <img src="https://img.shields.io/badge/INESCOM_2025-F59E0B?style=flat">
-</p>
-
-> Competed at the International Engineering Student Competition 2025 in Indonesia. A web platform for Lingsar Village.
-
-<p align="right">
-  <a href="https://github.com/J-Akiru5/LingsarLoka">
-    <img src="https://img.shields.io/badge/📂_repo-18181B?style=flat-square&labelColor=27272A">
-  </a>
-  <code>🚧 pending deploy</code>
-</p>
-
-</td>
-<td width="50%" bgcolor="#0C0C0E" valign="top">
-
-<h4>🎬 &nbsp;SineAI Hub</h4>
-
-*AI Filmmakers Ecosystem*
-
-<p>
-  <img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=next.js&logoColor=white">
-  <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat&logo=googlegemini&logoColor=white">
-</p>
-
-> A centralized ecosystem for the next generation of AI filmmakers — bridging generative AI with cinematic production pipelines.
-
-<p align="right">
-  <a href="https://github.com/J-Akiru5/sineai-hub">
-    <img src="https://img.shields.io/badge/📂_repo-18181B?style=flat-square&labelColor=27272A">
-  </a>
-</p>
-
-</td>
-</tr>
-<tr>
-<td width="50%" bgcolor="#0C0C0E" valign="top">
-
-<h4>⚡ &nbsp;Energy Monitoring</h4>
-
-*Real-Time IoT Power Tracking*
-
-<p>
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white">
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white">
-  <img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=next.js&logoColor=white">
-</p>
-
-> PZEM-004T sensor integration with ESP32 · real-time telemetry ingestion · overvoltage, undervoltage & blackout alert detection · configurable PHP/kWh billing engine.
-
-<p align="right">
-  <a href="https://github.com/J-Akiru5/energy-monitoring">
-    <img src="https://img.shields.io/badge/📂_repo-18181B?style=flat-square&labelColor=27272A">
-  </a>
-</p>
-
-</td>
-<td width="50%" bgcolor="#0C0C0E" valign="top">
-
-<h4>🏥 &nbsp;E-BHM / Health Triage</h4>
-
-*Barangay Health Management System*
-
-<p>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat&logo=googlegemini&logoColor=white">
-</p>
-
-> Electronic Barangay Health Management — medicine inventory & dispensing, AI-powered health chatbot ("Gabby"), and resident triage management for rural health workers.
-
-<p align="right">
-  <a href="https://github.com/J-Akiru5/e-bhm_connect">
-    <img src="https://img.shields.io/badge/📂_e--bhm-18181B?style=flat-square&labelColor=27272A">
-  </a>
-  <a href="https://github.com/J-Akiru5/health-connect-triage">
-    <img src="https://img.shields.io/badge/📂_triage-18181B?style=flat-square&labelColor=27272A">
-  </a>
-</p>
-
-</td>
-</tr>
-</table>
-
----
-
-### `// Collaborations`
-
-<table>
-<tr>
-<td width="100%" bgcolor="#0C0C0E" valign="top">
-
-<h4>🔬 &nbsp;ICTIRC — Information & Communication Technology International Research Conference</h4>
-
-<p>
-  <b>Role: Lead Developer</b> &nbsp;·&nbsp;
-  <a href="https://github.com/CICTstudcoDingle/ictirc">CICTstudcoDingle/ictirc</a>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Next.js_16-000?style=flat&logo=next.js&logoColor=white">
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white">
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white">
-  <img src="https://img.shields.io/badge/TS-3178C6?style=flat&logo=typescript&logoColor=white">
-</p>
-
-> Full-stack research repository & conference management platform — dual hot/cold storage architecture, multi-tier RBAC, paper submission & review workflow, plagiarism detection, QR-based event registration.
-
-<p align="right">
-  <a href="https://github.com/CICTstudcoDingle/ictirc">
-    <img src="https://img.shields.io/badge/📂_repo-18181B?style=flat-square&labelColor=27272A">
-  </a>
-  <a href="https://ictirc-web.vercel.app">
-    <img src="https://img.shields.io/badge/🌐_live-3B82F6?style=flat-square&labelColor=18181B">
-  </a>
-</p>
-
-</td>
-</tr>
-</table>
-
----
-
-### `// All Repositories`
-
-<details>
-<summary><b>View all 30+ repositories</b></summary>
 <br>
 
-| Project | Stack | Description |
-|---|---|---|
-| [LikasLens](https://github.com/J-Akiru5/LikasLens) ⭐40 | JavaScript | Smart community watchdog — earn rewards for reporting environmental issues |
-| [CICT Tech Portal](https://github.com/J-Akiru5/cict-tech-portal) | PHP | Department portal for ISUFST CICT Student Council |
-| [DAMS](https://github.com/J-Akiru5/dams) | PHP | DSWD Assistance Management System |
-| [Gamefowl](https://github.com/J-Akiru5/gamefowl) | TypeScript | Gamefowl management & tracking |
-| [CRMS](https://github.com/J-Akiru5/crms-project) | — | Campus Resource Management System for ISUFST |
-| [Scheduler](https://github.com/J-Akiru5/scheduler) | TypeScript | BSIT course schedule management |
-| [keandrew-photography](https://github.com/J-Akiru5/keandrew-photography) | TypeScript | Official photography portfolio website |
-| [GSUS Hackathon](https://github.com/J-Akiru5/GSUS-Hackathon-Project) | JavaScript | Hackathon project submission |
-| [Attendance Tracker](https://github.com/J-Akiru5/attendance-tracker-app) | JavaScript | Attendance tracking application |
-| [Online Exam System](https://github.com/J-Akiru5/online-examination-system) | PHP | Online examination platform |
-| [Feed Inventory](https://github.com/J-Akiru5/feed-inventory-tracker) | PHP | Feed inventory tracking system |
-| [CICT Grade Portal](https://github.com/J-Akiru5/cict-grade-portal) | Python | Grade management portal |
-| [My Portfolio](https://github.com/J-Akiru5/my-portfolio-react) | React + Vite | Personal developer portfolio |
-| [Capstone Portal](https://github.com/J-Akiru5/capstone-portal-cict) | TypeScript | Capstone project management for CICT |
+<a href="https://jeffdev.studio"><img src="assets/syntaxure-logo.png" width="34" height="34" alt="Syntaxure Labs" style="border-radius:8px;vertical-align:middle;margin-right:6px;"></a>
+[![GitHub](https://img.shields.io/badge/-GitHub-0A0D12?style=flat-square&logo=github&logoColor=22D3EE)](https://github.com/J-Akiru5)
+[![Facebook](https://img.shields.io/badge/-Facebook-0A0D12?style=flat-square&logo=facebook&logoColor=22D3EE)](https://www.facebook.com/martinezjeff26)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A0D12?style=flat-square&logo=linkedin&logoColor=22D3EE)](https://www.linkedin.com/in/jeff-edrick-martinez-888575300/)
+[![Instagram](https://img.shields.io/badge/-Instagram-0A0D12?style=flat-square&logo=instagram&logoColor=22D3EE)](https://www.instagram.com/jef.ferson_m/)
+[![Gmail](https://img.shields.io/badge/-Gmail-0A0D12?style=flat-square&logo=gmail&logoColor=22D3EE)](mailto:jeffmartinez@isufst.edu.ph)
+[![Website](https://img.shields.io/badge/-jeffdev.studio-0A0D12?style=flat-square&logo=vercel&logoColor=8B7BFF)](https://jeffdev.studio)
 
-<p align="center">
-  <a href="https://github.com/J-Akiru5?tab=repositories"><b>Browse all 32 repositories →</b></a>
-</p>
+[![Co-Founder & CTO](https://img.shields.io/badge/Co--Founder_%26_CTO-@dev--lou-181B1B?style=flat-square&logo=github&logoColor=white&labelColor=181B1B)](https://github.com/dev-lou)
+
+<img src="https://komarev.com/ghpvc/?username=J-Akiru5&color=3B82F6&style=flat-square&label=ENGINEERS_ONLINE" alt="Profile views">
+
+</div>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/terminal-about.svg">
+  <img src="assets/terminal-about.svg" alt="About Jeff — role, focus, product, now, guild, and base." width="100%">
+</picture>
+</div>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<div align="center">
+
+## Achievements
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/achievements.svg">
+  <img src="assets/achievements.svg" alt="CodersRank Top 1% worldwide, #1 Iloilo, Top 15 Philippines. INESCOM 2025 Best Poster + 2nd Place Essay for LingsarLoka. ASEAN AI Hackathon 2026 Top 10. KWADRA TBI Cohort 5 2nd Place. LikasLens 4th Place Nationally, IPOPHIL SRT. 80+ open-source stars, 5 GitHub achievement badges." width="100%">
+</picture>
+
+</div>
+
+<details>
+<summary><b>Achievement detail &amp; source notes</b></summary>
+<br>
+
+| Recognition | Result | Context |
+|---|---|---|
+| **CodersRank** | Top 1% worldwide · #1 Iloilo · Top 15 Philippines | Live developer skill ranking |
+| **INESCOM 2025** (Indonesia) | 🏆 Best Poster + 🥈 2nd Place, Essay | Team Lead, *"Team 404: Problem Not Found"* — [**LingsarLoka**](https://github.com/J-Akiru5/LingsarLoka), International Engineering Student Competition |
+| **ASEAN AI Hackathon 2026** | Top 10 — Climate Change Track | Regional AI-for-climate field |
+| **KWADRA TBI, Cohort 5** | 🥈 2nd Place — MVP Design Pitch | Wadhwani Foundation venture module |
+| **IPOPHIL SRT Innovation Contest** | 4th Place Nationally, Youth Category — [**LikasLens**](https://github.com/J-Akiru5/LikasLens) | Final Judging, University of Makati — representing ISUFST |
+| **Press** | Daily Guardian (Iloilo) | Named first president of SineAI Guild at ISUFST |
+| **Open Source** | 80+ combined stars ([LikasLens](https://github.com/J-Akiru5/LikasLens) + [Prism Organizer](https://github.com/J-Akiru5/prism-organizer)) · 5 GitHub achievement badges | Starstruck · Quickdraw · YOLO · Pair Extraordinaire ×2 · Pull Shark ×2 |
 
 </details>
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
-### `// GitHub Analytics`
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/J-Akiru5">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=J-Akiru5&show_icons=true&hide_border=true&bg_color=09090B&title_color=3B82F6&icon_color=10B981&text_color=A1A1AA&ring_color=06B6D4&rank_icon=github&custom_title=@J-Akiru5%20Stats" alt="GitHub Stats" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=J-Akiru5&layout=compact&hide_border=true&bg_color=09090B&title_color=3B82F6&text_color=A1A1AA&hide=blade,html,css&langs_count=8&custom_title=Top%20Languages" alt="Top Languages" />
-  </a>
-</p>
+## The Syntaxure Protocol
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=J-Akiru5&hide_border=true&background=09090B&stroke=27272A&ring=3B82F6&fire=10B981&currStreakLabel=3B82F6&sideNums=A1A1AA&currStreakNum=FAFAFA&sideLabels=A1A1AA&dates=52525B&mode=weekly" alt="GitHub Streak" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/dev-workflow.svg">
+  <img src="assets/dev-workflow.svg" alt="Five-stage workflow: Discover, Architect, Build, Govern, Handover." width="100%">
+</picture>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=J-Akiru5&theme=darkhub&no-frame=true&column=7&margin-w=8&title=Stars,Followers,Repositories,Commits,Issues,PullRequest,Reviews" alt="GitHub Trophies" />
-</p>
+</div>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ghchart.rshah.org/3B82F6/J-Akiru5">
-    <img src="https://ghchart.rshah.org/3B82F6/J-Akiru5" alt="@J-Akiru5 Contribution Graph" width="95%" />
-  </picture>
-</p>
+<img src="assets/divider.svg" width="100%" alt="">
 
----
-
-### `// Achievements`
+## Tech Stack
 
 <table>
-<tr>
-<td width="33%" bgcolor="#0C0C0E" align="center">
+<tr><th align="left">Languages</th><th align="left">Frontend & Mobile</th><th align="left">Backend & DB</th><th align="left">Cloud, DevOps & AI</th><th align="left">IoT & Hardware</th></tr>
+<tr valign="top">
+<td>
 
-### 🥈
-
-**INESCOM 2025**
-
-2nd Place
-
-*International Engineering Student Competition*
-
-LingsarLoka — Indonesia
+`TypeScript`
+`Python`
+`JavaScript`
+`PHP`
+`Dart`
 
 </td>
-<td width="33%" bgcolor="#0C0C0E" align="center">
+<td>
 
-### ⭐
-
-**80+ Stars**
-
-Open Source Impact
-
-*LikasLens + Prism Organizer*
-
-Combined community traction
+`Next.js`
+`React`
+`React Native`
+`Tailwind CSS`
+`Flutter`
 
 </td>
-<td width="33%" bgcolor="#0C0C0E" align="center">
+<td>
 
-### 🏆
+`Node.js`
+`Supabase`
+`Prisma`
+`PostgreSQL`
+`Firebase`
 
-**5 GitHub Badges**
+</td>
+<td>
 
-Achievements
+`Vercel`
+`Cloudflare`
+`Docker`
+`GitHub Actions`
+`Gemini / MCP`
 
-*Starstruck · Quickdraw · YOLO*
+</td>
+<td>
 
-Pair Extraordinaire · Pull Shark
+`ESP32`
+`Arduino (C++)`
+`PZEM-004T`
+`RTC / sensors`
 
 </td>
 </tr>
 </table>
 
----
+<img src="assets/divider.svg" width="100%" alt="">
+
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🏢 Syntaxure Labs**
+Enterprise web development studio & Prism SaaS monorepo — 8 apps + 5 shared packages: marketing site, Prism Context Engine SaaS, admin dashboards, MCP server, VS Code extension.
+`TypeScript` `Turborepo`
+[↳ repo](https://github.com/J-Akiru5/jeffdev-monorepo) · [↳ live](https://jeffdev.studio)
+
+</td>
+<td width="50%" valign="top">
+
+**🖥️ Prism Organizer**
+Portable CLI file-management tool — smart scanning, duplicate detection, AI classification, interactive TUI. ⭐ 39+ stars, published on npm and PyPI.
+`Python`
+[↳ repo](https://github.com/J-Akiru5/prism-organizer) · [↳ npm](https://www.npmjs.com/package/prism-organizer)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🥈 LingsarLoka**
+Village website for Lingsar Village — INESCOM 2025 (Indonesia), Best Poster + 2nd Place Essay.
+`Next.js` `TypeScript`
+[↳ repo](https://github.com/J-Akiru5/LingsarLoka)
+
+</td>
+<td width="50%" valign="top">
+
+**🎬 SineAI Hub**
+AI filmmakers' ecosystem — bridging generative AI with cinematic production pipelines.
+`JavaScript` `Gemini`
+[↳ repo](https://github.com/J-Akiru5/sineai-hub)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**⚡ Energy Monitoring**
+Real-time IoT power tracking — PZEM-004T + ESP32 telemetry, over/under-voltage & blackout alerts, configurable ₱/kWh billing engine.
+`ESP32` `Supabase`
+[↳ repo](https://github.com/J-Akiru5/energy-monitoring)
+
+</td>
+<td width="50%" valign="top">
+
+**🏥 E-BHM / Health Triage**
+Electronic barangay health management — medicine inventory & dispensing, an AI health chatbot ("Gabby"), and resident triage for rural health workers.
+`PHP` `MySQL` `Gemini`
+[↳ connect](https://github.com/J-Akiru5/e-bhm_connect) · [↳ triage](https://github.com/J-Akiru5/health-connect-triage)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🌱 LikasLens**
+Civic environmental reporting platform — a smart community watchdog where citizens earn rewards for reporting minor environmental issues, with a public accountability scoreboard. 4th Place Nationally, IPOPHIL SRT.
+`JavaScript` `Supabase`
+[↳ repo](https://github.com/J-Akiru5/LikasLens)
+
+</td>
+<td width="50%" valign="top">
+
+**🐟 PakaonAI** *(capstone, formerly OptiFeed)*
+ESP32-based precision aquaculture feeding system — RTC-scheduled, dashboard, and manual-button feeding with hardware-verified firmware.
+`ESP32` `Next.js` `Prisma`
+[↳ repo](https://github.com/J-Akiru5/OptiFeed)
+
+</td>
+</tr>
+</table>
+
+**Collaborations —** [**ICTIRC**](https://github.com/CICTstudcoDingle/ictirc) · Lead Developer — full-stack research repository & conference management platform for the ICT International Research Conference. [↳ live](https://ictirc-web.vercel.app)
+
+<details>
+<summary><b>All repositories</b></summary>
+<br>
+
+| Repository | Stack | Description |
+|---|---|---|
+| [jeffdev-monorepo](https://github.com/J-Akiru5/jeffdev-monorepo) | TypeScript | Syntaxure Labs monorepo — 8 apps, 5 shared packages |
+| [prism-organizer](https://github.com/J-Akiru5/prism-organizer) | Python | CLI file manager — 39+★, npm + PyPI |
+| [LingsarLoka](https://github.com/J-Akiru5/LingsarLoka) | Next.js | Village website — INESCOM 2025 |
+| [sineai-hub](https://github.com/J-Akiru5/sineai-hub) | JavaScript | AI filmmakers' ecosystem |
+| [energy-monitoring](https://github.com/J-Akiru5/energy-monitoring) | TypeScript | ESP32 real-time power-draw tracking |
+| [e-bhm_connect](https://github.com/J-Akiru5/e-bhm_connect) | PHP | Barangay health record & dispensing |
+| [health-connect-triage](https://github.com/J-Akiru5/health-connect-triage) | PHP | Resident triage management |
+| [LikasLens](https://github.com/J-Akiru5/LikasLens) | JavaScript | Civic environmental reporting — IPOPHIL SRT 4th Nationally |
+| [OptiFeed](https://github.com/J-Akiru5/OptiFeed) | TypeScript | PakaonAI — ESP32 aquaculture feeding capstone |
+| [cict-tech-portal](https://github.com/J-Akiru5/cict-tech-portal) | PHP | Department portal, ISUFST CICT Student Council |
+| [dams](https://github.com/J-Akiru5/dams) | PHP | DSWD Assistance Management System |
+| [crms-project](https://github.com/J-Akiru5/crms-project) | — | Campus Resource Management System, ISUFST |
+| [scheduler](https://github.com/J-Akiru5/scheduler) | TypeScript | BSIT course schedule management |
+| [my-portfolio-react](https://github.com/J-Akiru5/my-portfolio-react) | React + Vite | Personal developer portfolio |
+| [capstone-portal-cict](https://github.com/J-Akiru5/capstone-portal-cict) | TypeScript | Capstone project management for CICT |
+| [ictirc](https://github.com/CICTstudcoDingle/ictirc) | — | ICTIRC research infrastructure (collab) |
+
+[**Browse all repositories →**](https://github.com/J-Akiru5?tab=repositories)
+
+</details>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## Commit Activity
 
 <div align="center">
 
-### `// Start Project`
-
-<br>
-
-<a href="https://jeffdev.studio">
-  <img src="https://img.shields.io/badge/START_PROJECT-3B82F6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=09090B" alt="Start Project" />
-</a>
-&nbsp;
-<a href="https://jeffdev.studio/quote">
-  <img src="https://img.shields.io/badge/GET_QUOTE-18181B?style=for-the-badge&labelColor=27272A" alt="Get Quote" />
-</a>
-&nbsp;
-<a href="mailto:jeffmartinez@isufst.edu.ph">
-  <img src="https://img.shields.io/badge/CONTACT-10B981?style=for-the-badge&logo=gmail&logoColor=white&labelColor=09090B" alt="Contact" />
-</a>
+<img src="assets/commits.svg" alt="Commit activity — total contributions, current and longest week streak, and a real 52-week contribution heatmap. Auto-updated daily via GitHub Actions." width="100%">
 
 <br><br>
 
-<img src="./assets/divider.svg" width="100%" alt="">
+<img src="assets/top-langs.svg" alt="Top languages by bytes of code across all public repositories. Auto-updated daily via GitHub Actions." width="100%">
+
+<sub>Both panels are generated by <a href=".github/workflows/update-readme-stats.yml">a scheduled GitHub Action</a> that queries this account's real contribution and language data directly — no third-party badge service, so nothing here can go down except GitHub itself.</sub>
+
+</div>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/cta-footer.svg">
+  <img src="assets/cta-footer.svg" alt="Start a project, get a fixed quote, or reach out." width="100%">
+</picture>
 
 <br>
 
-> `"Governance over Generation"` — Syntaxure Labs Manifesto
+[![Start a Project](https://img.shields.io/badge/Start%20a%20Project-22D3EE?style=for-the-badge&logoColor=0A0D12&color=22D3EE&labelColor=0A0D12)](https://jeffdev.studio)
+[![Contact](https://img.shields.io/badge/Contact-0A0D12?style=for-the-badge&color=0A0D12&labelColor=1C2530)](mailto:jeffmartinez@isufst.edu.ph)
 
-<sub>© 2026 Syntaxure Labs · BS Information Technology — ISUFST-Dingle Campus</sub>
+<sub>© Syntaxure Labs · Iloilo, Philippines</sub>
 
 </div>
